@@ -54,7 +54,7 @@ describe("Thermostat", () => {
   describe("when power saving mode is off", () => {
     it("has a maximum temperature of 32 degrees", () => {
       thermostat.switchPowerSavingModeOff();
-      for (let i = 0; i < 13; i++) {
+      for (let i = 0; i < 12; i++) {
         thermostat.up();
       }
       expect(thermostat.getCurrentTemperature()).toEqual(32);
