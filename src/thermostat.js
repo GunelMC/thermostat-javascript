@@ -1,6 +1,7 @@
 class Thermostat {
   constructor() {
-    this.temperature = 20;
+    this.DEFAULT_TEMPERATURE = 20;
+    this.temperature = this.DEFAULT_TEMPERATURE;
     this.MINIMUM_TEMPERATURE = 10;
     this.powerSavingMode = true;
     this.MAX_LIMIT_PSM_ON = 25;
@@ -44,5 +45,9 @@ class Thermostat {
     } else {
       return this.temperature === this.MAX_LIMIT_PSM_OFF;
     }
+  }
+
+  resetTemperature() {
+    this.temperature = this.DEFAULT_TEMPERATURE;
   }
 }

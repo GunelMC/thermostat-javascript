@@ -60,4 +60,12 @@ describe("Thermostat", () => {
       expect(thermostat.getCurrentTemperature()).toEqual(32);
     });
   });
+
+  it("can be reset to the default temperature", () => {
+    for (let i = 0; i < 6; i++) {
+      thermostat.up();
+    }
+    thermostat.resetTemperature();
+    expect(thermostat.getCurrentTemperature()).toEqual(20);
+  });
 });
