@@ -23,5 +23,5 @@
 ## Getting Started 
 
 - Clone this repo
-- Cd into thermostat
-- open index.html in your favourite browser 
+- Cd into `thermostat`
+- Open index.html in your favourite browser 
