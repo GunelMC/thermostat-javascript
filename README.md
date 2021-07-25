@@ -17,5 +17,11 @@
 
 ## Built with
 
-- Javascript for business logic and user interface
+- Vanilla Javascript for business logic and user interface
 - Jasmine for tests
+
+## Getting Started 
+
+- Clone this repo
+- Cd into thermostat
+- open index.html in your favourite browser 
