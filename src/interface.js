@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", () => {
   const displayWeather = (city) => {
-    const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=a3d9eb01d4de82b9b8d0849ef604dbed&units=metric`;
+    const url = `http://api.openweathermap.org/data/2.5/weather?q=${city}&appid=93255817bef63d7addf556ae9a8e49e6&units=metric`;
 
     fetch(url)
       .then((response) => {
